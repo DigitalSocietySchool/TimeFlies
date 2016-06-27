@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> <!-- IE対策 -->
+  <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1"> <!-- スマホ画面対策 -->
+  <title>Leave Your Worries Behind</title>
+  <link rel="stylesheet" href="./css/fly_away.css">
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jquery.placeholder.min.js"></script>
+
+
+  <style>
+       .placeholder {
+           color: #000000;
+       }
+   </style>
+</head>
+<body>
+
+  <div id="container">
+  <form method="post" action="./php/phonescreen.php">
+    <ul>
+     <li><textarea id="yourname"  name="name"  placeholder="Your name" /></textarea></li>
+     <li><textarea id="textarea" name="comment" rows="3" placeholder="I am leaving worries behind about..">I am leaving worries behind about.. </textarea></li>
+     <li><input id="button" type="submit" name="send" value="MAKE IT FLY AWAY" width="150px"/></li>
+    </ul>
+  </form>
+  </div>
+
+</body>
+</html>
