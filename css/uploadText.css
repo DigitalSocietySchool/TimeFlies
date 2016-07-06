@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/04.png);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+#container{
+  width: 100%;
+}
+
+.formessage{
+  width: 100%;
+  margin-top: 30%;
+}
+
+@font-face {
+  font-family: 'MyFont3';
+  src: url("../FrutigerLTStd-BoldCn.otf");
+}
+
+.great{
+  color: #ffffff;
+  font-family: 'MyFont3',Helvetica, Arial, Verdana;
+  font-size: 35px;
+  text-align: center;
+}
